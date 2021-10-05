@@ -1,7 +1,3 @@
-# rpi-ansible-playbook
-
-ansible playbook for raspberry pi cluster
-
 # Build a Kubernetes cluster using k3s via Ansible
 
 Author: <https://github.com/itwars>
@@ -10,15 +6,15 @@ Author: <https://github.com/itwars>
 
 Build a Kubernetes cluster using Ansible with k3s. The goal is easily install a Kubernetes cluster on machines running:
 
-- [x] Debian
-- [x] Ubuntu
-- [x] CentOS
+- [X] Debian
+- [X] Ubuntu
+- [X] CentOS
 
 on processor architecture:
 
-- [x] x64
-- [x] arm64
-- [x] armhf
+- [X] x64
+- [X] arm64
+- [X] armhf
 
 ## System requirements
 
