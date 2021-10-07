@@ -1,4 +1,5 @@
 # Build a Kubernetes cluster using k3s via Ansible
+# Additionally Install docker and set up the k3s cluster to not use Traefik as the default ingress-controller/loadbalancer.
 
 Author: <https://github.com/itwars>
 
