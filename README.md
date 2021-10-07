@@ -1,4 +1,5 @@
 # Build a Kubernetes cluster using k3s via Ansible
+
 # Additionally Install docker and set up the k3s cluster to not use Traefik as the default ingress-controller/loadbalancer.
 
 Author: <https://github.com/itwars>
@@ -58,5 +59,5 @@ ansible-playbook reset.yml -i inventory/my-cluster/hosts.ini
 To get access to your **Kubernetes** cluster just
 
 ```bash
-scp debian@master_ip:~/.kube/config ~/.kube/config
+scp ubuntu@172.16.0.50:~/.kube/config ~/.kube/config
 ```
